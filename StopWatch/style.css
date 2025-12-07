@@ -1,0 +1,70 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(226, 243, 255);
+}
+
+#Myh1{
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 6px 6px 10px rgba(0, 0, 0, 0.422);
+    color: rgb(0, 0, 25%);
+    margin-top: 50px;
+    margin-bottom: 20px;
+} 
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid black;
+    border-radius: 60px;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.253);
+}
+
+#display{
+    font-size: 5rem;
+    font-family: monospace;
+    font-weight: bold;
+    margin-bottom: 25px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.749);
+    color: rgba(107, 107, 107, 0.907)
+}
+
+#controls button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+#startbtn{
+    background-color: hsl(115, 100%, 40%);
+}
+#startbtn:hover{
+    background-color: hsl(115, 100%, 30%);
+}
+
+#stopbtn{
+    background-color: hsl(0, 100%, 40%);
+}
+#stopbtn:hover{
+    background-color: hsl(0, 100%, 30%);
+}
+#resetbtn{
+    background-color: hsl(224, 100%, 40%);
+}
+#resetbtn:hover{
+    background-color: hsl(226, 100%, 30%);
+}
